@@ -1,0 +1,88 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "image": "../Fotos/crestajdm.jpg",
+            "name": "1997 Chaser Jzx-100",
+            "price": "Offer: $22,000",
+            "description": "1JZ-GTE (2.5L 6-cylinder turbo, 5-speed manual)"
+        },
+        {
+            "id": 2,
+            "image": "../Fotos/r32jmd.jpg",
+            "name": "1993 R32 GTR",
+            "price": "Offer: $36,000",
+            "description": "RB26DETT (2.6L 6-cylinder turbo, 5-speed manual)"
+        },
+        {
+            "id": 3,
+            "image": "../Fotos/r33jdm.jpg",
+            "name": "1996 R33 GTR",
+            "price": "Offer: $42,000",
+            "description": "RB26DETT (2.6L 6-cylinder turbo, 5-speed manual)"
+        },
+        {
+            "id": 4,
+            "image": "../Fotos/R34jdm.jpg",
+            "name": "1998 R34 GTR",
+            "price": "Offer: $65,000",
+            "description": "RB26DETT (2.6L 6-cylinder turbo, 5-speed manual)"
+        },
+        {
+            "id": 5,
+            "image": "../Fotos/r35jdm.jpg",
+            "name": "2017 GTR",
+            "price": "Offer: $60,000",
+            "description": "R38DETT (3.8-liter V-6 twin-turbo, dual-clutch)"
+        },
+        {
+            "id": 6,
+            "image": "../Fotos/s15.2jdm.jpg",
+            "name": "1999 Sylvia S15",
+            "price": "Offer: $25,000",
+            "description": "SR20DET (2.0L 4-cylinder turbo, 5-speed manual)"
+        },
+        {
+            "id": 7,
+            "image": "../Fotos/fcjdm.jpg",
+            "name": "1988 Rx-7 (Fc)",
+            "price": "Offer: $15,000",
+            "description": "13B Rotary (1.3L turbocharged, 5-speed manual)"
+        },
+        {
+            "id": 8,
+            "image": "../Fotos/Rx7jdm.png",
+            "name": "1998 Rx-7 (Fd)",
+            "price": "Offer: $40,000",
+            "description": "13B Rotary (1.3L twin-turbocharged, 5-speed manual)"
+        },
+        {
+            "id": 9,
+            "image": "../Fotos/nsxjdm.jpg",
+            "name": "1991 NSX",
+            "price": "Offer: $50,000",
+            "description": "C32B (3.2L V-6, 5-speed manual)"
+        },
+        {
+            "id": 10,
+            "image": "../Fotos/suprajdm.jpg",
+            "name": "1996 Supra Mk-IV",
+            "price": "Offer: $45,000",
+            "description": "2JZ-GTE (2.9L 6-cylinder twin-turbocharged, 6-speed manual)"
+        },
+        {
+            "id": 11,
+            "image": "../Fotos/jzx90jdm.jpg",
+            "name": "1995 Chaser Jzx-90",
+            "price": "Offer: $18,000",
+            "description": "1JZ-GTE (2.5L 6-cylinder, 5-speed manual)"
+        },
+        {
+            "id": 12,
+            "image": "../Fotos/240jdm.jpg",
+            "name": "1993 S13 240sx",
+            "price": "Offer: $20,000",
+            "description": "KA24DE (2.4L 4-cylinder, 5-speed manual)"
+        }
+    ]
+}
