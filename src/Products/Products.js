@@ -15,13 +15,13 @@ class Products extends React.Component {
                     </header>
                     <h1 className="JDM">Japanese Imports</h1>
                     <div className="parent">
-                        {productos.productos.map((item, key) => {
+                         {productos.productos.map((item, key) => {
                             return (
                                 <article className="child">
                                     <img className="child--image" src={item.image}/>
                                     <h3>{item.name}</h3>
                                     <p>{item.description}</p>
-                                    <h5>{item.price}</h5>
+                                    <h5>Offer: ${item.price}</h5>
                                 </article>
                             )})
                         }

@@ -9,16 +9,7 @@ const defaultState = {
 
 class Form extends React.Component {
   state = defaultState;
-
-  handleChange = (event) => {
-    const isCheckbox = event.target.type === "checkbox";
-    this.setState({
-      [event.target.name]: isCheckbox
-        ? event.target.checked
-        : event.target.value,
-    });
-  };
-
+    
   validate = () => {
     let nameError = "";
     let emailError = "";
@@ -70,8 +61,8 @@ class Form extends React.Component {
                   type="text"
                   name="name"
                   placeholder="Name"
+                  style= {{display: "block", width: '100%', height: '30%'}}
                   value={this.state.name}
-                  onChange={this.handleChange}
                 />
                 <div className="validate">{this.state.nameError}</div>
               </div>
@@ -82,8 +73,8 @@ class Form extends React.Component {
                   type="text"
                   name="email"
                   placeholder="Email"
+                  style= {{display: "block", width: '100%', height: '30%'}}
                   value={this.state.email}
-                  onChange={this.handleChange}
                 />
                 <div className="validate">{this.state.emailError}</div>
               </div>
@@ -92,6 +83,7 @@ class Form extends React.Component {
                 <textarea
                   placeholder="We would love to hear your feedback!"
                   name="message"
+                  style= {{display: "block", width: '100%', height: '60%'}}
                 ></textarea>
               </div>
               <button type="submit" className="btn">
